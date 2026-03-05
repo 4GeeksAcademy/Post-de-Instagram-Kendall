@@ -4,7 +4,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    height: 100vh;
+    margin: 0;
 }
 
 .wraper {
@@ -12,16 +13,16 @@ body {
     background-color: white;
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
 }
 
 .header {
     display: flex;
     align-items: center;
+    gap: 5px;
+    padding: 10px;
 }
 
 .logo {
-    margin: 10px;
     font-size: 40px;
 }
 
@@ -55,13 +56,11 @@ body {
     display: flex;
     flex-direction: row;
     font-size: 30px;
+    gap: 10px;
 }
 
-.comment {
-    margin: 0 10px 0 10px;
-}
 .bookmark {
-     margin-left: auto;
+    margin-left: auto;
     font-size: 30px;
 }
 
